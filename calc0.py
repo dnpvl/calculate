@@ -126,11 +126,11 @@ while True:
     
     elif oper == calculate[9]:
         try:
-            a = float(input("Enter the first number(whole numbers only): "))
+            a = float(input("Enter the smaller number(whole numbers only): "))
         except ValueError:
             a = 1
         try:
-            e = float(input("Enter the second number(whole numbers only): "))
+            e = float(input("Enter the larger number(whole numbers only): "))
         except ValueError:
             e = 1
         print(f"{a} is {calc1.calc_pcent(a, e)}% of {e}.")
